@@ -52,7 +52,7 @@ urlRouter.post("/original", async (req, res) => {
         newURL.expireAt = new Date(Date.now() + (expirationInSeconds * 1000)); // Convert seconds to milliseconds
         await newURL.save();
         await redisClient.incr("counter");
-        res.status(200).json({ "newURL": `http://localhost:8080/url/${shortURL}` });
+        res.status(200).json({ "newURL": `https://url-shortener-ii67.onrender.com/url/${shortURL}` });
     } catch (error) {
         console.error(error);
         res.status(400).json({ Error: "Error when shortening URL" });

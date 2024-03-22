@@ -1,4 +1,4 @@
-let backendURL = `http://localhost:8080/url`;
+let backendURL = `https://url-shortener-ii67.onrender.com/url`;
 
 let originalURL = document.getElementById("long-url");
 let submitBtn = document.getElementById("submit");
