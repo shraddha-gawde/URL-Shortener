@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center; 
+}
+
+h1, h2 {
+    color: #333;
+}
+
+textarea {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#error {
+    margin-bottom: 10px;
+}
+
+#shorturl {
+    margin-bottom: 10px;
+}
+
+#copy {
+    margin-bottom: 10px;
+}
+
+#status {
+    color: green;
+}
